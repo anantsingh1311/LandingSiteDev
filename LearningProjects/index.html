@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet"/>
+    <title>Tarar Co &amp; Solutions</title>
+</head>
+<body id="top" class="min-h-screen overflow-x-hidden bg-gradient-to-br from-cyan-200 via-cyan-400 to-cyan-500 px-4 py-4 text-slate-950 sm:px-6 lg:px-10">
+    <div class="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
+        <div class="motion-orb motion-orb-one"></div>
+        <div class="motion-orb motion-orb-two"></div>
+        <div class="motion-orb motion-orb-three"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <div id="scroll-progress" class="fixed inset-x-0 top-0 z-50 h-1 bg-slate-950/80"></div>
+
+    <header class="sticky top-3 z-40">
+        <nav class="mx-auto max-w-6xl rounded-full border border-white/45 bg-white/55 px-3 py-3 shadow-lg shadow-cyan-950/10 backdrop-blur-xl">
+            <div class="flex flex-wrap items-center justify-between gap-3">
+                <a href="#top" class="flex items-center gap-3 rounded-full px-2 py-1">
+                    <img src="./TararCoandSol.webp" alt="Tarar Co and Solutions logo" class="h-10 w-10 rounded-full border border-cyan-100/70 object-cover shadow-sm shadow-cyan-950/20">
+                    <div>
+                        <p class="text-[10px] font-semibold uppercase tracking-[0.28em] text-cyan-900/70">Tarar Co</p>
+                        <p class="text-sm font-semibold text-slate-950">Digital Solutions</p>
+                    </div>
+                </a>
+
+                <div class="flex flex-1 flex-wrap items-center justify-center gap-2 text-xs font-medium sm:text-sm">
+                    <a href="#about" data-nav-link class="nav-pill inline-flex items-center rounded-full px-4 py-2 text-slate-700/80">About</a>
+                    <a href="#services" data-nav-link class="nav-pill inline-flex items-center rounded-full px-4 py-2 text-slate-700/80">Services</a>
+                    <a href="#contact" data-nav-link class="nav-pill inline-flex items-center rounded-full px-4 py-2 text-slate-700/80">Contact</a>
+                </div>
+
+                <a href="#contact" class="inline-flex items-center rounded-full bg-slate-950 px-4 py-2 text-sm font-semibold text-white shadow-md transition hover:-translate-y-0.5 hover:bg-slate-900">Start a project</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="mx-auto mt-6 max-w-6xl space-y-6 pb-20">
+        <section data-reveal class="titles box-content overflow-hidden rounded sm:rounded-sm md:rounded-md lg:rounded-lg border border-cyan-500 bg-cyan-300/90 px-5 py-6 shadow-xl shadow-cyan-950/15 sm:px-6 lg:grid lg:grid-cols-[1.1fr_0.9fr] lg:items-center lg:gap-8 lg:px-8">
+            <div>
+                <p class="inline-flex rounded-full border border-cyan-950/10 bg-white/45 px-4 py-2 text-xs font-semibold uppercase tracking-[0.32em] text-cyan-950/70">Custom digital products</p>
+                <h1 class="mt-4 max-w-3xl text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl lg:text-5xl">Tarar Co &amp; Solutions builds polished digital products that feel sharp on every screen.</h1>
+                <p class="mt-4 max-w-2xl text-sm leading-7 text-slate-900/80 sm:text-base">From product strategy and UI systems to backend architecture, immersive experiences, and launch-ready delivery, we build work that is modern, practical, and built to last.</p>
+
+                <div class="mt-6 flex flex-wrap gap-3">
+                    <a href="#services" class="inline-flex items-center rounded-full bg-slate-950 px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-cyan-950/15 transition hover:-translate-y-0.5 hover:bg-slate-900">Explore services</a>
+                    <a href="#contact" class="inline-flex items-center rounded-full border border-cyan-950/15 bg-white/50 px-5 py-3 text-sm font-semibold text-slate-950 shadow-sm transition hover:-translate-y-0.5 hover:bg-white/70">Talk with us</a>
+                </div>
+
+                <div class="mt-6 flex flex-wrap gap-3 text-xs font-semibold uppercase tracking-[0.2em] text-cyan-950/70 sm:text-sm">
+                    <span class="rounded-full border border-cyan-950/10 bg-white/35 px-4 py-2">Responsive builds</span>
+                    <span class="rounded-full border border-cyan-950/10 bg-white/35 px-4 py-2">Human-first UX</span>
+                    <span class="rounded-full border border-cyan-950/10 bg-white/35 px-4 py-2">Launch-ready systems</span>
+                </div>
+            </div>
+
+            <div class="mt-8 lg:mt-0">
+                <article data-tilt class="tilt-card rounded-[2rem] border border-cyan-300/20 bg-slate-950/92 p-5 text-cyan-50 shadow-2xl shadow-cyan-950/20">
+                    <div class="flex items-center gap-4">
+                        <img src="./TararCoandSol.webp" alt="Tarar Co and Solutions logo" class="h-16 w-16 rounded-2xl border border-cyan-300/20 object-cover shadow-md shadow-cyan-950/30">
+                        <div>
+                            <p class="text-xs font-semibold uppercase tracking-[0.3em] text-cyan-300">Studio focus</p>
+                            <h2 class="mt-1 text-2xl font-semibold tracking-tight text-white">Interactive products with real-world utility</h2>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 grid gap-3 sm:grid-cols-3 lg:grid-cols-1">
+                        <div class="rounded-2xl border border-cyan-300/15 bg-white/5 p-4">
+                            <p class="text-xs font-semibold uppercase tracking-[0.24em] text-cyan-300">Frontend</p>
+                            <p class="mt-2 text-sm leading-7 text-cyan-50/85">Clean visual systems, smooth interactions, and layouts that stay sharp from mobile to desktop.</p>
+                        </div>
+                        <div class="rounded-2xl border border-cyan-300/15 bg-white/5 p-4">
+                            <p class="text-xs font-semibold uppercase tracking-[0.24em] text-cyan-300">Backend</p>
+                            <p class="mt-2 text-sm leading-7 text-cyan-50/85">Structured architecture, secure flows, and delivery that is ready to move beyond prototypes.</p>
+                        </div>
+                        <div class="rounded-2xl border border-cyan-300/15 bg-white/5 p-4">
+                            <p class="text-xs font-semibold uppercase tracking-[0.24em] text-cyan-300">Experience</p>
+                            <p class="mt-2 text-sm leading-7 text-cyan-50/85">Interfaces, VR, and smart systems designed to feel modern without sacrificing clarity.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section data-reveal style="--delay: 100ms" class="hero-line overflow-hidden rounded sm:rounded-sm md:rounded-md lg:rounded-lg border border-cyan-600 bg-cyan-400/95 px-5 py-5 shadow-lg shadow-cyan-950/10 sm:px-6">
+            <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+                <div class="max-w-2xl">
+                    <p class="text-xs font-semibold uppercase tracking-[0.32em] text-cyan-950/70">Professional. Responsive. Collaborative.</p>
+                    <h2 class="mt-2 text-xl font-semibold tracking-tight text-slate-950 sm:text-2xl lg:text-3xl">We build real digital products - not templates.</h2>
+                    <p class="mt-3 text-sm leading-7 text-slate-900/80 sm:text-base">The experience is shaped to feel premium across hover states, scrolling, layout shifts, and small-screen behavior, not just in static screenshots.</p>
+                </div>
+
+                <div class="flex flex-wrap gap-2 lg:justify-end">
+                    <span class="hero-chip inline-flex items-center rounded-full border border-cyan-950/10 bg-white/45 px-4 py-2 text-sm font-medium text-slate-900/80">Smooth scrolling</span>
+                    <span class="hero-chip inline-flex items-center rounded-full border border-cyan-950/10 bg-white/45 px-4 py-2 text-sm font-medium text-slate-900/80">Reveal motion</span>
+                    <span class="hero-chip inline-flex items-center rounded-full border border-cyan-950/10 bg-white/45 px-4 py-2 text-sm font-medium text-slate-900/80">Interactive cards</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid gap-6 lg:grid-cols-3">
+            <article id="about" data-reveal style="--delay: 80ms" class="about-section box-content rounded sm:rounded-sm md:rounded-md lg:rounded-lg border border-cyan-700 bg-cyan-500/95 px-5 py-6 shadow-xl shadow-cyan-950/10 sm:px-6 lg:col-span-2 lg:px-8">
+                <p class="text-xs font-semibold uppercase tracking-[0.32em] text-cyan-950/70">About us</p>
+                <h3 class="mt-2 text-2xl font-semibold tracking-tight sm:text-3xl">Built for products that need to work in the real world</h3>
+                <div class="mt-5 space-y-4 text-sm leading-7 text-slate-900/90 sm:text-base">
+                    <p>At Tarar Co &amp; Solutions, we build digital products that do more than look good. Every project is designed to solve a real problem, perform reliably, and support long-term growth.</p>
+                    <p>Our work spans custom web applications, immersive VR experiences, and scalable backend systems. From architecture and authentication to polished frontends and production deployment, we take a hands-on approach from end to end.</p>
+                    <p>With a foundation in full-stack MERN development and virtual reality systems, we focus on practical delivery, strong product thinking, and solutions that are ready to be used in the real world.</p>
+                </div>
+            </article>
+
+            <aside data-reveal style="--delay: 160ms" class="box-content rounded sm:rounded-sm md:rounded-md lg:rounded-lg border border-cyan-700 bg-cyan-200/95 px-5 py-6 shadow-xl shadow-cyan-950/10 sm:px-6">
+                <p class="text-xs font-semibold uppercase tracking-[0.32em] text-cyan-950/70">Why teams choose us</p>
+                <h3 class="mt-2 text-2xl font-semibold tracking-tight">Practical, product-minded delivery</h3>
+                <ul class="mt-5 space-y-4 text-sm leading-7 text-slate-900/90 sm:text-base">
+                    <li class="flex gap-3">
+                        <span class="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-cyan-900/60"></span>
+                        <span>No template-driven shortcuts. Every build is shaped around the actual use case.</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <span class="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-cyan-900/60"></span>
+                        <span>Balanced thinking across design, engineering, functionality, and scalability.</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <span class="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-cyan-900/60"></span>
+                        <span>Clear execution across frontend, backend, deployment, and future growth.</span>
+                    </li>
+                </ul>
+                <div class="mt-6 rounded-2xl border border-cyan-950/15 bg-cyan-950/10 p-4">
+                    <p class="text-sm font-semibold uppercase tracking-[0.22em] text-cyan-950/70">Vision</p>
+                    <p class="mt-2 text-sm leading-7 text-slate-900/90">Create digital solutions that bridge innovation and usability across web platforms, AI-integrated systems, and immersive virtual experiences.</p>
+                </div>
+            </aside>
+        </section>
+
+        <section id="services" data-reveal class="services-section rounded sm:rounded-sm md:rounded-md lg:rounded-lg border border-cyan-800 bg-cyan-600/95 px-5 py-6 shadow-xl shadow-cyan-950/10 sm:px-6 lg:px-8">
+            <div class="max-w-3xl">
+                <p class="text-xs font-semibold uppercase tracking-[0.32em] text-cyan-950/70">What we offer</p>
+                <h3 class="mt-2 text-2xl font-semibold tracking-tight sm:text-3xl">End-to-end digital solutions designed to move from idea to launch</h3>
+                <p class="mt-4 text-sm leading-7 text-slate-900/90 sm:text-base">We design, build, and deliver products with a strong emphasis on usability, performance, and long-term value. The result is work that feels modern while staying grounded in real business needs.</p>
+            </div>
+
+            <div class="mt-6 grid gap-4 md:grid-cols-2">
+                <article data-reveal data-tilt style="--delay: 60ms" class="service-card tilt-card rounded-2xl border border-cyan-950/15 bg-white/35 p-5 shadow-sm backdrop-blur-sm">
+                    <p class="text-xs font-semibold uppercase tracking-[0.28em] text-cyan-950/70">01</p>
+                    <h4 class="mt-2 text-xl font-semibold tracking-tight">Custom Web Applications</h4>
+                    <p class="mt-3 text-sm leading-7 text-slate-900/90">Scalable, high-performance platforms tailored to your workflow, audience, and operational goals.</p>
+                    <ul class="mt-4 space-y-2 text-sm leading-7 text-slate-900/90">
+                        <li>Full-stack builds with modern technologies</li>
+                        <li>Authentication, user systems, and role-based access</li>
+                        <li>API integrations, databases, and production-ready deployment</li>
+                    </ul>
+                    <p class="service-card-label mt-4 text-xs font-semibold uppercase tracking-[0.18em] text-cyan-950/70">Launch-ready systems</p>
+                </article>
+
+                <article data-reveal data-tilt style="--delay: 120ms" class="service-card tilt-card rounded-2xl border border-cyan-950/15 bg-white/35 p-5 shadow-sm backdrop-blur-sm">
+                    <p class="text-xs font-semibold uppercase tracking-[0.28em] text-cyan-950/70">02</p>
+                    <h4 class="mt-2 text-xl font-semibold tracking-tight">Modern UI/UX &amp; Frontend</h4>
+                    <p class="mt-3 text-sm leading-7 text-slate-900/90">Interfaces that look refined, feel intuitive, and perform smoothly across devices.</p>
+                    <ul class="mt-4 space-y-2 text-sm leading-7 text-slate-900/90">
+                        <li>Responsive layouts and clean visual systems</li>
+                        <li>Interactive experiences with purposeful motion</li>
+                        <li>Performance-minded implementation for real users</li>
+                    </ul>
+                    <p class="service-card-label mt-4 text-xs font-semibold uppercase tracking-[0.18em] text-cyan-950/70">Human-first UX</p>
+                </article>
+
+                <article data-reveal data-tilt style="--delay: 180ms" class="service-card tilt-card rounded-2xl border border-cyan-950/15 bg-white/35 p-5 shadow-sm backdrop-blur-sm">
+                    <p class="text-xs font-semibold uppercase tracking-[0.28em] text-cyan-950/70">03</p>
+                    <h4 class="mt-2 text-xl font-semibold tracking-tight">Virtual Reality Experiences</h4>
+                    <p class="mt-3 text-sm leading-7 text-slate-900/90">Immersive environments and interactive concepts developed for presentation, simulation, and engagement.</p>
+                    <ul class="mt-4 space-y-2 text-sm leading-7 text-slate-900/90">
+                        <li>Custom VR scenes and interactive simulations</li>
+                        <li>Real-time feedback and immersive user journeys</li>
+                        <li>Prototype and deployment-ready experience development</li>
+                    </ul>
+                    <p class="service-card-label mt-4 text-xs font-semibold uppercase tracking-[0.18em] text-cyan-950/70">Immersive interaction</p>
+                </article>
+
+                <article data-reveal data-tilt style="--delay: 240ms" class="service-card tilt-card rounded-2xl border border-cyan-950/15 bg-white/35 p-5 shadow-sm backdrop-blur-sm">
+                    <p class="text-xs font-semibold uppercase tracking-[0.28em] text-cyan-950/70">04</p>
+                    <h4 class="mt-2 text-xl font-semibold tracking-tight">AI Integration &amp; Smart Systems</h4>
+                    <p class="mt-3 text-sm leading-7 text-slate-900/90">Intelligent features that improve workflows, increase automation, and support better user experiences.</p>
+                    <ul class="mt-4 space-y-2 text-sm leading-7 text-slate-900/90">
+                        <li>Conversational interfaces and chatbot integration</li>
+                        <li>Business workflow automation</li>
+                        <li>Voice and API-driven capabilities for future-ready platforms</li>
+                    </ul>
+                    <p class="service-card-label mt-4 text-xs font-semibold uppercase tracking-[0.18em] text-cyan-950/70">Future-ready product thinking</p>
+                </article>
+            </div>
+
+            <div data-reveal style="--delay: 280ms" class="mt-6 rounded-2xl border border-cyan-950/15 bg-cyan-950/10 px-5 py-4 text-sm font-medium leading-7 text-slate-950">
+                From simple platforms to complex systems, every build is designed to be usable, maintainable, and ready to grow with your business.
+            </div>
+        </section>
+
+        <section class="grid gap-6 lg:grid-cols-3">
+            <article id="contact" data-reveal style="--delay: 80ms" class="contact-section rounded sm:rounded-sm md:rounded-md lg:rounded-lg border border-cyan-900 bg-cyan-700/95 px-5 py-6 shadow-xl shadow-cyan-950/10 sm:px-6 lg:col-span-2 lg:px-8">
+                <p class="text-xs font-semibold uppercase tracking-[0.32em] text-cyan-950/70">How to reach us</p>
+                <h3 class="mt-2 text-2xl font-semibold tracking-tight sm:text-3xl">Start the conversation in the way that fits you best</h3>
+                <p class="mt-4 text-sm leading-7 text-slate-900/90 sm:text-base">Whether you have a fully formed brief or just an early idea, we are ready to help shape it into something real. We respond quickly, stay practical, and are open to projects at different stages of clarity.</p>
+
+                <div class="mt-6 grid gap-3 sm:grid-cols-2">
+                    <a href="https://www.linkedin.com/in/anantsingh44/" target="_blank" rel="noopener noreferrer" data-reveal data-tilt style="--delay: 60ms" class="link-card tilt-card block rounded-2xl border border-cyan-950/15 bg-white/30 p-4 shadow-sm transition hover:-translate-y-1 hover:bg-white/45 hover:shadow-md">
+                        <p class="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-950/70">LinkedIn</p>
+                        <p class="mt-2 text-sm leading-7 text-slate-900/90">Best for professional inquiries, introductions, and collaboration conversations.</p>
+                        <div class="mt-4 flex items-center justify-between gap-3">
+                            <p class="link-card-label text-xs font-semibold uppercase tracking-[0.18em] text-cyan-950/70">Visit my LinkedIn</p>
+                            <span class="rounded-full bg-cyan-950/10 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.18em] text-cyan-950/70">Open</span>
+                        </div>
+                    </a>
+
+                    <a href="https://www.instagram.com/tararandcosolutions" target="_blank" rel="noopener noreferrer" data-reveal data-tilt style="--delay: 120ms" class="link-card tilt-card block rounded-2xl border border-cyan-950/15 bg-white/30 p-4 shadow-sm transition hover:-translate-y-1 hover:bg-white/45 hover:shadow-md">
+                        <p class="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-950/70">Instagram</p>
+                        <p class="mt-2 text-sm leading-7 text-slate-900/90">A quick way to reach out, stay updated, and start an informal conversation.</p>
+                        <div class="mt-4 flex items-center justify-between gap-3">
+                            <p class="link-card-label text-xs font-semibold uppercase tracking-[0.18em] text-cyan-950/70">Visit Instagram</p>
+                            <span class="rounded-full bg-cyan-950/10 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.18em] text-cyan-950/70">Open</span>
+                        </div>
+                    </a>
+
+                    <a href="https://pro.fiverr.com/s/WEyaxW7" target="_blank" rel="noopener noreferrer" data-reveal data-tilt style="--delay: 180ms" class="link-card tilt-card block rounded-2xl border border-cyan-950/15 bg-white/30 p-4 shadow-sm transition hover:-translate-y-1 hover:bg-white/45 hover:shadow-md">
+                        <p class="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-950/70">Fiverr</p>
+                        <p class="mt-2 text-sm leading-7 text-slate-900/90">Useful when you want to review services clearly and move toward a direct order.</p>
+                        <div class="mt-4 flex items-center justify-between gap-3">
+                            <p class="link-card-label text-xs font-semibold uppercase tracking-[0.18em] text-cyan-950/70">Visit Fiverr</p>
+                            <span class="rounded-full bg-cyan-950/10 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.18em] text-cyan-950/70">Open</span>
+                        </div>
+                    </a>
+
+                    <a href="https://anantsinghprofile.framer.website/" target="_blank" rel="noopener noreferrer" data-reveal data-tilt style="--delay: 240ms" class="link-card tilt-card block rounded-2xl border border-cyan-950/15 bg-white/30 p-4 shadow-sm transition hover:-translate-y-1 hover:bg-white/45 hover:shadow-md">
+                        <p class="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-950/70">Profile</p>
+                        <p class="mt-2 text-sm leading-7 text-slate-900/90">Explore my profile, background, and the kind of work I build across digital products and experiences.</p>
+                        <div class="mt-4 flex items-center justify-between gap-3">
+                            <p class="link-card-label text-xs font-semibold uppercase tracking-[0.18em] text-cyan-950/70">Visit my profile</p>
+                            <span class="rounded-full bg-cyan-950/10 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.18em] text-cyan-950/70">Open</span>
+                        </div>
+                    </a>
+                </div>
+            </article>
+
+            <aside data-reveal style="--delay: 160ms" class="rounded sm:rounded-sm md:rounded-md lg:rounded-lg border border-cyan-950 bg-slate-950/90 px-5 py-6 text-cyan-50 shadow-2xl shadow-cyan-950/20 sm:px-6">
+                <p class="text-xs font-semibold uppercase tracking-[0.32em] text-cyan-300">Next step</p>
+                <h3 class="mt-2 text-2xl font-semibold tracking-tight">Turn your idea into a real product</h3>
+                <p class="mt-4 text-sm leading-7 text-cyan-50/85 sm:text-base">Share your concept through whichever platform feels most natural. If the brief is clear, we can scope it. If it is still forming, we can help define it.</p>
+
+                <div class="mt-6 space-y-3 text-sm leading-7 text-cyan-50/90">
+                    <div class="rounded-2xl border border-cyan-400/20 bg-white/5 px-4 py-3">Clear brief? We can move into planning and execution.</div>
+                    <div class="rounded-2xl border border-cyan-400/20 bg-white/5 px-4 py-3">Early concept? We can help shape the product direction.</div>
+                    <div class="rounded-2xl border border-cyan-400/20 bg-white/5 px-4 py-3">Long-term build? We focus on systems that can evolve over time.</div>
+                </div>
+
+                <a href="https://anantsinghprofile.framer.website/" target="_blank" rel="noopener noreferrer" class="mt-6 inline-flex items-center rounded-full bg-cyan-300 px-5 py-3 text-sm font-semibold text-slate-950 shadow-lg shadow-cyan-950/15 transition hover:-translate-y-0.5 hover:bg-cyan-200">View profile</a>
+            </aside>
+        </section>
+    </main>
+
+    <button id="back-to-top" type="button" class="fixed bottom-5 right-5 z-40 inline-flex h-12 w-12 items-center justify-center rounded-full border border-white/60 bg-white/80 text-sm font-semibold text-slate-950 shadow-lg shadow-cyan-950/20 backdrop-blur-md">Top</button>
+
+    <script src="./main.js"></script>
+</body>
+</html>
