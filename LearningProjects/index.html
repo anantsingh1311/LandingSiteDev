@@ -6,7 +6,7 @@
     <link href="./output.css" rel="stylesheet"/>
     <title>Tarar Co &amp; Solutions</title>
 </head>
-<body id="top" class="min-h-screen overflow-x-hidden bg-gradient-to-br from-cyan-200 via-cyan-400 to-cyan-500 px-4 py-4 text-slate-950 sm:px-6 lg:px-10">
+<body id="top" class="min-h-screen overflow-x-hidden bg-linear-to-br from-cyan-200 via-cyan-400 to-cyan-500 px-4 py-4 text-slate-950 sm:px-6 lg:px-10">
     <div class="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
         <div class="motion-orb motion-orb-one"></div>
         <div class="motion-orb motion-orb-two"></div>
@@ -17,9 +17,9 @@
     <div id="scroll-progress" class="fixed inset-x-0 top-0 z-50 h-1 bg-slate-950/80"></div>
 
     <header class="sticky top-3 z-40">
-        <nav class="mx-auto max-w-6xl rounded-full border border-white/45 bg-white/55 px-3 py-3 shadow-lg shadow-cyan-950/10 backdrop-blur-xl">
-            <div class="flex flex-wrap items-center justify-between gap-3">
-                <a href="#top" class="flex items-center gap-3 rounded-full px-2 py-1">
+        <nav class="mx-auto max-w-6xl rounded-[2rem] border border-white/45 bg-white/55 px-3 py-3 shadow-lg shadow-cyan-950/10 backdrop-blur-xl sm:rounded-full">
+            <div class="flex flex-col items-stretch gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between">
+                <a href="#top" class="flex items-center justify-center gap-3 rounded-full px-2 py-1 sm:justify-start">
                     <img src="./TararCoandSol.webp" alt="Tarar Co and Solutions logo" class="h-10 w-10 rounded-full border border-cyan-100/70 object-cover shadow-sm shadow-cyan-950/20">
                     <div>
                         <p class="text-[10px] font-semibold uppercase tracking-[0.28em] text-cyan-900/70">Tarar Co</p>
@@ -27,13 +27,15 @@
                     </div>
                 </a>
 
-                <div class="flex flex-1 flex-wrap items-center justify-center gap-2 text-xs font-medium sm:text-sm">
+                <div class="flex w-full flex-wrap items-center justify-center gap-2 text-xs font-medium sm:flex-1 sm:text-sm">
                     <a href="#about" data-nav-link class="nav-pill inline-flex items-center rounded-full px-4 py-2 text-slate-700/80">About</a>
                     <a href="#services" data-nav-link class="nav-pill inline-flex items-center rounded-full px-4 py-2 text-slate-700/80">Services</a>
                     <a href="#contact" data-nav-link class="nav-pill inline-flex items-center rounded-full px-4 py-2 text-slate-700/80">Contact</a>
                 </div>
 
-                <a href="#contact" class="inline-flex items-center rounded-full bg-slate-950 px-4 py-2 text-sm font-semibold text-white shadow-md transition hover:-translate-y-0.5 hover:bg-slate-900">Start a project</a>
+                <a href="#contact" class="inline-flex w-full items-center justify-center rounded-full bg-slate-950 px-4 py-3 text-sm font-semibold text-white shadow-md transition hover:-translate-y-0.5 hover:bg-slate-900 sm:w-auto sm:shrink-0">
+                    Start a project
+                </a>
             </div>
         </nav>
     </header>
